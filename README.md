@@ -1,1 +1,4 @@
 # Word Embeddings for Adjectives
+In this project, we are required to implementing our own Word Embeddings for adjectives. More specifically, we want the obtained embeddings to preserve as much synonym relationship as possible.
+
+Using the unsupervised learning model, Word2vec Skip-Gram model, to implement this project. First, we know that the similar word always comes with the similar context, then representing words as vectors. Word2vec is an efficient predictive model for learning word embeddings from raw text. Skip-Gram model is one flavour of Word2vec, it does inverse the and predicts source context0words from targets words, and skip-gram treats each context-target pair as a new observation, and this tends to do better with the large datasets. So, we chose this model to implement this project.
